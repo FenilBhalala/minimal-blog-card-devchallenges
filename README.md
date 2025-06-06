@@ -9,7 +9,7 @@ A minimal and responsive blog card layout built using HTML and CSS. This project
 
 <div align="center">
   <h3>
-    <a href="https://your-demo-link.netlify.app">
+    <a href="https://fenilbhalala.github.io/minimal-blog-card-devchallenges">
       Demo
     </a>
     <span> | </span>
