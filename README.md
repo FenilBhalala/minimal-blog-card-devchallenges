@@ -13,7 +13,7 @@ A minimal and responsive blog card layout built using HTML and CSS. This project
       Demo
     </a>
     <span> | </span>
-    <a href="[https://github.com/fenilbhalala/minimal-blog-card-devchallenges](https://github.com/FenilBhalala/minimal-blog-card-devchallenges)">
+    <a href="https://github.com/FenilBhalala/minimal-blog-card-devchallenges">
       Solution
     </a>
     <span> | </span>
@@ -78,5 +78,5 @@ This project is a clean and responsive blog card layout designed to showcase min
 
 ## 🙋‍♂️ Author
 
-- GitHub: [@fenilbhalala]([https://github.com/fenilbhalala](https://github.com/FenilBhalala))
-- DevChallenges Profile: [Fenil Bhalala]([https://devchallenges.io/portfolio/fenilbhalala](https://devchallenges.io/profile/15f31578-a92d-402a-ba23-7f252e7b5e69))
+- GitHub: [@fenilbhalala](https://github.com/FenilBhalala)
+- DevChallenges Profile: [Fenil Bhalala](https://devchallenges.io/profile/15f31578-a92d-402a-ba23-7f252e7b5e69)
