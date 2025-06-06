@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>devChallenges.io | Minimal Blog Card</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      html{
+        font-size: 10px;
+      }
+
+      .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        & .card{
+          margin: 0 2.5rem 0;
+          width: 33.6rem;
+          height: auto;
+          padding: 1.6rem;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          border-radius: 1rem;
+          font-family: "Urbanist", sans-serif;
+          transition: all .2s linear;
+
+          &:hover{
+            scale: 1.1;
+          }
+
+          & figure img{
+            width: 100%;
+            height: auto;
+            border-radius: 1rem;
+          }
+
+          & .tag{
+            display: inline-block;
+            padding: .4rem 1rem ;
+            color: rgb(137, 43, 226);
+            background-color: rgba(137, 43, 226, 0.168);
+            border-radius: 1rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 1.6rem 0 1.6rem;
+          }
+
+          & .title{
+            font-size: 2.5rem;
+            letter-spacing: .1rem;
+            text-transform: capitalize;
+          }
+
+          & .para{
+            margin: 1.6rem 0 1.6rem;
+            font-size: 1.2rem;
+            font-weight: 500;
+            letter-spacing: .1rem;
+            text-transform: capitalize;
+          }
+
+          & hr{
+            position: relative;
+            width: 110%;
+            left: -5%;
+          }
+
+          & .author{
+            margin: 1.6rem 0 .8rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            letter-spacing: .1rem;
+            text-transform: capitalize;
+          }
+        }
+      }
+
+      .author-info {
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      @media (width < 375px) {
+        html{
+          font-size: 8.5px;
+        }
+      }
+
+
+      @media (width < 375px) {
+        html{
+          font-size: 9px;
+        }
+      }
+
+      @media (width <= 768px) {
+        html{
+          font-size: 9.5px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Design
+
+  Embracing Minimalism
+
+  From minimalist sculptures to minimalist paintings, this blog will inspire you to appreciate the beauty that lies in simplicity.
+
+  Annie Spratt -->
+
+
+
+
+    <div class="container">
+      <div class="card">
+        <figure>
+          <img src="resources/Cactus.jpg" alt="this is card image">
+        </figure>
+        <p class="tag">Design</p>
+        <h2 class="title">Minimal Blog Card</h2>
+        <p class="para">This challenge is a great way to start with basic HTML and CSS skills. The challenge is to create a simple blog card that includes an image, a title, a short description, and a tag.</p>
+        <hr>
+        <p class="author">Fenil Bhalala</p>
+      </div>
+    </div>
+
+    <div class="author-info">
+      Coded by <a href="https://devchallenges.io/profile/15f31578-a92d-402a-ba23-7f252e7b5e69" target="_blank">Fenil Bhalala</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+    
+  </body>
+</html>
